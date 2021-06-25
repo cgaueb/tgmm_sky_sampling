@@ -17,10 +17,11 @@ Some additional quick links
 ### Table of Contents
 
 - [Overview](#Overview)
+- [Usage Instructions](#Usage-Instructions)
 - [How to Cite](#How-to-Cite)
 - [Acknowledgments](#Acknowledgments)
 
-## Overview
+## Usage Instructions
 
 The folders are:
 - [cpp_sky_gen_code](cpp_sky_gen_code), contains C++ source code for the generation of radiance and luminance maps for the Hosek and Preetham models. See README.txt for the compilation of the tool. A compiled executable is also provided for convenience.
@@ -32,8 +33,8 @@ The folders are:
 ### Sky Maps
 
 To build the sky maps tool:
-- Open a Visual Studio x64 command line console
-- Change directory to the [cpp_sky_gen_code](cpp_sky_gen_code) folder
+- Open a Visual Studio x64 command line console.
+- Change directory to the [cpp_sky_gen_code](cpp_sky_gen_code) folder.
 - Dependencies
     - **TinyEXR** (header only - included)
     - **FreeImage** (compiled, included for Windows|x64)
@@ -51,7 +52,7 @@ or
     ```shell
     * clang++.exe -O2 SunSky.cpp SunSkyTool.cpp -Iinclude -L"lib/x64" -o SunSky.exe -lFreeImage
     ```
-This generates the executable **SunSky.exe**.
+This generates the executable 'SunSky.exe'
 
 To generate sky maps and dataset, Go to [cpp_sky_gen_code](cpp_sky_gen_code) folder and run:
 ```shell
