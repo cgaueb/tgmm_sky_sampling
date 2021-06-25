@@ -10,7 +10,7 @@ This repository contains the source code that is part of the supplemental materi
 
 Some additional quick links
 - [Author version](https://#) (**TBD**) of the paper
-- YouTube [short video presentation](https://#) (**TBD**) (3 min)
+- [Video presentation](https://#) (**TBD**) (12 min)
 
 ![Image](teaser.png)
 
