@@ -119,7 +119,7 @@ In our work, we have used the source code~\cite{Vitsas_EGSR_2021}, available at 
 </pre>
 
 <pre style="white-space:pre-wrap;">
-@article{Vitsas_EGSR_2021,
+@inproceedings{vitsas2021tgmm,
     booktitle = {Eurographics Symposium on Rendering - DL-only Track},
     editor = {Bousseau, Adrien and McGuire, Morgan},
     title = {{Sampling Clear Sky Models using Truncated Gaussian Mixtures}},
