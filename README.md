@@ -1,7 +1,7 @@
 # Sampling Clear Sky Models using Truncated Gaussian Mixtures
 
 ## Overview
-This repository contains the source code that is part of the supplemental material for the *[EGSR 2021 Paper: Sampling Clear Sky Models using Truncated Gaussian Mixtures](https://#)* (**TBD**). The contents are:
+This repository contains the source code that is part of the supplemental material for the *[EGSR 2021 Paper: Sampling Clear Sky Models using Truncated Gaussian Mixtures](https://diglib.eg.org/handle/10.2312/sr20211288)*. The contents are:
 
 - Python script for the fitting process
 - Reference implementation as a PBRTv3 plugin for infinite area light sources.
@@ -9,7 +9,7 @@ This repository contains the source code that is part of the supplemental materi
 - Test renderings for various scenes
 
 Some additional quick links
-- [Author version](https://#) (**TBD**) of the paper
+- [Author version](http://graphics.cs.aueb.gr/graphics/docs/papers/GMM_Sky_Sampling.pdf) of the paper
 - [Video presentation](https://#) (**TBD**) (12 min)
 
 ![Image](teaser.png)
@@ -121,11 +121,14 @@ In our work, we have used the source code~\cite{Vitsas_EGSR_2021}, available at 
 <pre style="white-space:pre-wrap;">
 @article{Vitsas_EGSR_2021,
     booktitle = {Eurographics Symposium on Rendering - DL-only Track},
-    editor = {Bousseau, Adrian and McGuire, Morgan},
+    editor = {Bousseau, Adrien and McGuire, Morgan},
     title = {{Sampling Clear Sky Models using Truncated Gaussian Mixtures}},
     author = {Vitsas, Nick and Vardis, Konstantinos and Papaioannou, Georgios},
     year = {2021},
-    publisher = {The Eurographics Association}
+    publisher = {The Eurographics Association},
+    ISSN = {1727-3463},
+    ISBN = {978-3-03868-157-1},
+    DOI = {10.2312/sr.20211288}
 }
 </pre>
 Note: A proper bibtex will be uploaded when the paper gets published.
